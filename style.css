@@ -1,0 +1,147 @@
+body,
+html {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-central {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.box-login {
+    padding: 30px;
+    border: 5px solid black;
+    border-radius: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: 400px;
+}
+
+.box-login h3 {
+    font-family: 'Brasika Display - Trial', sans-serif;
+}
+
+.campo-login {
+    outline: none;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.btn-login {
+    outline: none;
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor:pointer;
+}
+
+.img-login {
+    height: 100px;
+
+}
+.menu-atletas{
+   
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: black;
+    font-family: 'Brasika Display - Trial', sans-serif;
+    color:white;
+}
+.menu-atletas img{
+    height: 60px;
+}
+.menu-atletas button{
+    outline:none;
+    cursor:pointer;
+    font-family: 'Brasika Display - Trial', sans-serif;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border:1px solid white;
+    background-color: black;
+    color:white;
+}
+.content-atletas{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 50px;
+    gap: 30px;
+}
+.input-busca{
+    outline: none;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 10px;
+}
+.card-atleta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 10px;
+    font-family: 'Brasika Display - Trial', sans-serif;
+    width: 200px;
+}
+.card-atleta img{
+    height:200px;
+    border-radius: 50%;
+    border:1px solid black;
+    
+}
+.card-atleta button{
+    outline: none;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 5px 10px;
+    
+    cursor:pointer;
+}
+.card-atleta h4{
+    padding: 10px 15px;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin:0;
+}
+.lista-atletas{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    max-width: 1025px;
+}
+#btn-busca{
+    outline: none;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 5px 10px;
+    cursor:pointer;
+    margin-top:-20px;
+}
+#btn-sair{
+    font-size: 15px;
+    margin-left: 80px;
+    
+}

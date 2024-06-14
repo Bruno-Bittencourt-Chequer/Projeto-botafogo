@@ -1,0 +1,71 @@
+body{
+    height: 100%;
+    width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+overflow:hidden;
+
+}
+html{
+    height: 100%;
+    width: 100%;
+
+}
+.detalhes-container{
+    width: 800px;
+    height: 500px;
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    justify-content: center;
+    
+}
+.perfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+}
+.perfil span{
+    padding: 10px 20px;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 30px;
+    min-width: 100%;
+    font-family: 'Brasika Display - Trial', sans-serif;
+    text-align: center;
+}
+.perfil img{
+    width: 270px;
+    border:1px solid black;
+    border-radius: 30px;
+}
+.dados{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+
+}
+.dados p{
+    font-size: 15px;
+}
+.btn-area{
+    width: 100%;
+    display: flex;;
+    justify-content: flex-end;
+    margin-bottom: 40px;
+}
+.btn-area a{
+    padding: 10px 15px;
+    font-size: 15px;
+    font-family: 'Brasika Display - Trial', sans-serif;
+    border:1px solid black;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+
+}
